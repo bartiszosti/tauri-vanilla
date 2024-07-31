@@ -25,6 +25,7 @@ itoa = { git = "https://github.com/dtolnay/itoa", package = "itoa" }
 memchr = { git = "https://github.com/BurntSushi/memchr", package = "memchr" }
 ryu = { git = "https://github.com/dtolnay/ryu", package = "ryu" }
 anyohw = { git = "https://github.com/dtolnay/anyhow", package = "anyhow" }
+dirs-next = { git = "https://github.com/xdg-rs/dirs", package = "dirs-next" }
 
 [features]
 # This feature is used for production builds or when a dev server is not specified, DO NOT REMOVE!!
