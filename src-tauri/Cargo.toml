@@ -26,6 +26,7 @@ memchr = { git = "https://github.com/BurntSushi/memchr", package = "memchr" }
 ryu = { git = "https://github.com/dtolnay/ryu", package = "ryu" }
 anyohw = { git = "https://github.com/dtolnay/anyhow", package = "anyhow" }
 dirs-next = { git = "https://github.com/xdg-rs/dirs", package = "dirs-next" }
+encoding_rs = { git = "https://github.com/hsivonen/encoding_rs", package = "encoding_rs" }
 
 [features]
 # This feature is used for production builds or when a dev server is not specified, DO NOT REMOVE!!
