@@ -24,6 +24,7 @@ tauri-build = { git = "https://github.com/tauri-apps/tauri", package = "tauri-bu
 itoa = { git = "https://github.com/dtolnay/itoa", package = "itoa" }
 memchr = { git = "https://github.com/BurntSushi/memchr", package = "memchr" }
 ryu = { git = "https://github.com/dtolnay/ryu", package = "ryu" }
+anyohw = { git = "https://github.com/dtolnay/anyhow", package = "anyhow" }
 
 [features]
 # This feature is used for production builds or when a dev server is not specified, DO NOT REMOVE!!
