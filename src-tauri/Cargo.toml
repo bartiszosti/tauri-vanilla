@@ -20,7 +20,7 @@ serde = { git = "https://github.com/serde-rs/serde", package = "serde" }
 serde_derive = { git = "https://github.com/serde-rs/serde", package = "serde_derive" }
 serde_json = { git = "https://github.com/serde-rs/json", package = "serde_json" }
 tauri = { git = "https://github.com/tauri-apps/tauri", package = "tauri" }
-tauri = { git = "https://github.com/tauri-apps/tauri", package = "tauri-build" }
+tauri-build = { git = "https://github.com/tauri-apps/tauri", package = "tauri-build" }
 
 [features]
 # This feature is used for production builds or when a dev server is not specified, DO NOT REMOVE!!
