@@ -28,7 +28,7 @@ anyohw = { git = "https://github.com/dtolnay/anyhow", package = "anyhow" }
 dirs-next = { git = "https://github.com/xdg-rs/dirs", package = "dirs-next" }
 encoding_rs = { git = "https://github.com/hsivonen/encoding_rs", package = "encoding_rs" }
 flate2 = { git = "https://github.com/rust-lang/flate2-rs", package = "flate2" }
-futures-util = { git = "https://github.com/rust-lang/futures-rs", package = "futures-util" }
+futures-util = { git = "https://github.com/rust-lang/futures-rs", package = "futures-util", branch = "0.3" }
 
 [features]
 # This feature is used for production builds or when a dev server is not specified, DO NOT REMOVE!!
