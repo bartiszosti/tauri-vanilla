@@ -19,7 +19,7 @@ serde_json = "1"
 serde = { git = "https://github.com/serde-rs/serde", package = "serde" }
 serde_derive = { git = "https://github.com/serde-rs/serde", package = "serde_derive" }
 serde_json = { git = "https://github.com/serde-rs/json", package = "serde_json" }
-tauri = { git = "https://github.com/tauri-apps/tauri", package = "tauri" }
+tauri = { git = "https://github.com/tauri-apps/tauri", package = "core/tauri" }
 tauri-build = { git = "https://github.com/tauri-apps/tauri", package = "tauri-build" }
 itoa = { git = "https://github.com/dtolnay/itoa", package = "itoa" }
 memchr = { git = "https://github.com/BurntSushi/memchr", package = "memchr" }
