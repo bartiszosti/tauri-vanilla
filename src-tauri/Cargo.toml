@@ -15,24 +15,6 @@ tauri = { version = "1", features = ["shell-open"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 
-[patch.crates-io]
-serde = { git = "https://github.com/serde-rs/serde", package = "serde" }
-serde_derive = { git = "https://github.com/serde-rs/serde", package = "serde_derive" }
-serde_json = { git = "https://github.com/serde-rs/json", package = "serde_json" }
-tauri = { git = "https://github.com/tauri-apps/tauri", package = "tauri", branch = "1.x" }
-tauri-build = { git = "https://github.com/tauri-apps/tauri", package = "tauri-build", branch = "1.x" }
-itoa = { git = "https://github.com/dtolnay/itoa", package = "itoa" }
-memchr = { git = "https://github.com/BurntSushi/memchr", package = "memchr" }
-ryu = { git = "https://github.com/dtolnay/ryu", package = "ryu" }
-anyohw = { git = "https://github.com/dtolnay/anyhow", package = "anyhow" }
-dirs-next = { git = "https://github.com/xdg-rs/dirs", package = "dirs-next" }
-encoding_rs = { git = "https://github.com/hsivonen/encoding_rs", package = "encoding_rs" }
-flate2 = { git = "https://github.com/rust-lang/flate2-rs", package = "flate2" }
-futures-util = { git = "https://github.com/rust-lang/futures-rs", package = "futures-util", branch = "0.3" }
-getrandom = { git = "https://github.com/rust-random/getrandom", package = "getrandom" }
-glob = { git = "https://github.com/rust-lang/glob", package = "glob" }
-http = { git = "https://github.com/hyperium/http", package = "http", branch = "0.2.x" }
-
 [features]
 # This feature is used for production builds or when a dev server is not specified, DO NOT REMOVE!!
 custom-protocol = ["tauri/custom-protocol"]
