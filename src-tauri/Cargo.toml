@@ -31,7 +31,7 @@ flate2 = { git = "https://github.com/rust-lang/flate2-rs", package = "flate2" }
 futures-util = { git = "https://github.com/rust-lang/futures-rs", package = "futures-util", branch = "0.3" }
 getrandom = { git = "https://github.com/rust-random/getrandom", package = "getrandom" }
 glob = { git = "https://github.com/rust-lang/glob", package = "glob" }
-http = { git = "https://github.com/hyperium/http", package = "http" }
+http = { git = "https://github.com/hyperium/http", package = "http", branch = "0.2.x" }
 
 [features]
 # This feature is used for production builds or when a dev server is not specified, DO NOT REMOVE!!
